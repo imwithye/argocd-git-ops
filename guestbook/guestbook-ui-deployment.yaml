@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui-error
     spec:
       containers:
-        - image: gcr.io/google-samples/gb-frontend:v5-error
+        - image: gcr.io/google-samples/gb-frontend:v5
           name: guestbook-ui-error
           ports:
             - containerPort: 80
